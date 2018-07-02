@@ -48,5 +48,7 @@ parfor i=1:TNum
 %     end
 end
 toc
-min(min(MSE))
+min(min(MSE(1:226,:)))
+find
+
 
